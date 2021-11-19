@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["bAAthWW"]); }
+
+__d("BaseTextContext",["react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");c=d("react");var i=c.useContext,j=c.useMemo,k=h.createContext(null);function a(a){var b=a.children,c=a.nested;a=j(function(){return{nested:c}},[c]);return h.jsx(k.Provider,{value:a,children:b})}a.displayName=a.name+" [from "+f.id+"]";function b(){return i(k)}g.BaseTextContextProvider=a;g.useBaseTextContext=b}),98);
+__d("useRefEffect",["react"],(function(a,b,c,d,e,f,g){"use strict";b=d("react");var h=b.useCallback,i=b.useRef;function a(a,b){var c=i(null);return h(function(b){c.current&&(c.current(),c.current=null),b!=null&&(c.current=a(b))},b)}g["default"]=a}),98);
